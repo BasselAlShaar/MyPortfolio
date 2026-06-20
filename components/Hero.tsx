@@ -37,7 +37,7 @@ export function Hero() {
             animate="show"
             custom={1}
             variants={fadeUp}
-            className="font-display font-medium text-[2.0rem] leading-[1.05] sm:text-3xl md:text-4xl max-w-4xl text-paperwhite"
+            className="font-display font-medium text-[2.0rem] leading-[1.05] md:text-4xl max-w-4xl text-paperwhite"
           >
             I build software the way engineers draft blueprints —
             <span className="text-line"> precise</span>,
