@@ -34,7 +34,7 @@ export function Sheet({
         isDark ? "border-line/15 bg-ink text-paperwhite" : "border-ink/10 bg-paper text-ink"
       } ${className}`}
     >
-      <div className="relative w-full max-w-6xl mx-auto px-6 md:px-10">
+      <div className="relative w-full max-w-[90rem] mx-auto px-4 md:px-6">
         <RegMarks color={isDark ? "#5B9BEF" : "#0E1A2B"} />
         <div
           className={`flex items-center gap-3 pt-8 font-mono text-[11px] tracking-[0.18em] uppercase ${

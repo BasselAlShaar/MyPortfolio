@@ -4,7 +4,7 @@ import { profile } from "@/lib/data";
 export function Footer() {
   return (
     <footer className="bg-ink border-t border-line/15">
-      <div className="max-w-6xl mx-auto px-6 md:px-10 py-10 flex flex-col md:flex-row md:items-end justify-between gap-8">
+      <div className="max-w-[90rem] mx-auto px-4 md:px-6 py-10 flex flex-col md:flex-row md:items-end justify-between gap-8">
         <div>
           <p className="font-mono text-[11px] tracking-[0.18em] uppercase text-mute mb-2">
             End of set

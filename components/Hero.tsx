@@ -21,7 +21,7 @@ export function Hero() {
       <BlueprintGrid />
 
       <div className="relative flex-1 flex items-center">
-        <div className="max-w-6xl w-full mx-auto px-6 md:px-10 pt-28 pb-16">
+        <div className="max-w-[90rem] w-full mx-auto px-4 md:px-6 pt-28 pb-16">
           <motion.p
             initial="hidden"
             animate="show"
@@ -81,7 +81,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="relative max-w-6xl w-full mx-auto px-6 md:px-10 pb-8 flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+      <div className="relative max-w-[90rem] w-full mx-auto px-4 md:px-6 pb-8 flex flex-col md:flex-row md:items-end md:justify-between gap-6">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
