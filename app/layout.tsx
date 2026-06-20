@@ -35,8 +35,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable} ${mono.variable}`}>
-      <body className="font-body bg-ink text-paperwhite antialiased">
+    <html lang="en" className={`${display.variable} ${body.variable} ${mono.variable} w-full`}>
+      <body className="w-full font-body bg-ink text-paperwhite antialiased">
         {children}
       </body>
     </html>

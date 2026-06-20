@@ -30,11 +30,11 @@ export function Sheet({
   return (
     <section
       id={id}
-      className={`relative border-t ${
+      className={`relative w-full border-t ${
         isDark ? "border-line/15 bg-ink text-paperwhite" : "border-ink/10 bg-paper text-ink"
       } ${className}`}
     >
-      <div className="relative max-w-6xl mx-auto px-6 md:px-10">
+      <div className="relative w-full max-w-6xl mx-auto px-6 md:px-10">
         <RegMarks color={isDark ? "#5B9BEF" : "#0E1A2B"} />
         <div
           className={`flex items-center gap-3 pt-8 font-mono text-[11px] tracking-[0.18em] uppercase ${

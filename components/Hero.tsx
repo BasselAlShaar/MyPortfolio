@@ -17,7 +17,7 @@ const fadeUp = {
 
 export function Hero() {
   return (
-    <section id="top" className="relative min-h-[100svh] flex flex-col justify-between overflow-hidden bg-ink">
+    <section id="top" className="relative w-full min-h-[100svh] flex flex-col justify-between overflow-hidden bg-ink">
       <BlueprintGrid />
 
       <div className="relative flex-1 flex items-center">
